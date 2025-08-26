@@ -1,0 +1,21 @@
+# Build site
+
+```
+# Default build (input: ., output: _site)
+npx @11ty/eleventy
+
+# Custom input/output
+npx @11ty/eleventy --input=src --output=public
+```
+
+# Serve
+
+```
+npx @11ty/eleventy --serve
+```
+
+# Clean
+
+```
+npx @11ty/eleventy --clean
+```
