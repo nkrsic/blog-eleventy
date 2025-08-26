@@ -1,5 +1,6 @@
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("assets");
+    console.log("Adding passthrough copy for assets...");
+    eleventyConfig.addPassthroughCopy({ "assets": "assets" });
     return {
         dir: {
             input: ".",

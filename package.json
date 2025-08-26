@@ -8,7 +8,7 @@
     "build": "eleventy",
     "start": "eleventy --serve",
     "watch": "eleventy --watch",
-    "clean": "eleventy --clean"
+    "clean": "rm -rf _site"
   },
   "author": "",
   "license": "ISC",
